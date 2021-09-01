@@ -1,0 +1,10 @@
+i want to have a timeout for the bootloader to signal
+the end of the data i need to recieve.
+
+i should also be sure to check the amount of data
+versus the amount of space left. if it is more data
+than can be stored, i should probably terminate the
+process and display an error message on the lcd and
+also on the serial port. in ascii
+
+jump table per type of irq

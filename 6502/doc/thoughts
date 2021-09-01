@@ -1,0 +1,41 @@
+lcd image buffer
+
+    purpose is to help keep track of what is being displayed
+    is this a relevant concern? would keeping track of the cursor
+    be more effective? i need an example
+
+    entering into a menu.. see the following
+    
+    1 - Back    2 - Inspect
+
+    3 - Serial  3 - I/O
+
+    This can be accomplished by clearing the screen
+    (cursor starts at location 0)
+    and then writing the string shown above.
+
+    it has to do with how i expect the end user to use CompuStart.
+    the way i see it working is not having an end program that will
+    be run from the ROM but moreso from RAM. like a never finished 
+    project. its perpetually experimental.
+    i would need to devise an appropiate programming environment
+    for it then.
+
+
+    PERFECT
+
+    lets see
+
+    nothing here is ment to be permanent.
+    design a pcb/software program
+    learn
+
+    deanna and michael produce two modules
+    kento and i make the software and some ui
+    hija makes the power solution
+    valentin makes the pcb with michael
+
+    main issue right now is building libraries for ROM or for
+    RAM. building for RAM is convenient because I can edit the
+    libraries as needed, that is, without having to program
+    the ROM chip again.

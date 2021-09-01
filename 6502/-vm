@@ -1,0 +1,40 @@
+Modules list:
+-------------
+complex_bl.o:
+    ZEROPAGE          Offs=000000  Size=000010  Align=00001  Fill=0000
+    ROM_SPAD          Offs=000000  Size=000061  Align=00001  Fill=0000
+    INIT              Offs=000000  Size=000248  Align=00001  Fill=0000
+    BL                Offs=000000  Size=0001A3  Align=00001  Fill=0000
+    ROM_LIB           Offs=000000  Size=0005FC  Align=00001  Fill=0000
+    ROM_IRQ           Offs=000000  Size=0000A6  Align=00001  Fill=0000
+    VECTORS           Offs=000000  Size=000006  Align=00001  Fill=0000
+    PGM_ROM           Offs=000000  Size=00005A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000000  00000F  000010  00001
+ROM_SPAD              000200  000260  000061  00001
+PGM_ROM               001000  001059  00005A  00001
+INIT                  00E000  00E247  000248  00001
+BL                    00E248  00E3EA  0001A3  00001
+ROM_LIB               00E3EB  00E9E6  0005FC  00001
+ROM_IRQ               00E9E7  00EA8C  0000A6  00001
+VECTORS               00FFFA  00FFFF  000006  00001
+
+
+Exports list by name:
+---------------------
+
+
+
+Exports list by value:
+----------------------
+
+
+
+Imports list:
+-------------
+

@@ -1,0 +1,4 @@
+simple_bl.o:	simple_bl.s /home/nicky/Documents/cc65-master/6502/dep/inc/hw/PERIPHERAL_ADDR_CONST.inc /home/nicky/Documents/cc65-master/6502/dep/inc/mem/RAM.inc /home/nicky/Documents/cc65-master/6502/dep/inc/lib/DELAY_LIB.inc
+
+simple_bl.s /home/nicky/Documents/cc65-master/6502/dep/inc/hw/PERIPHERAL_ADDR_CONST.inc /home/nicky/Documents/cc65-master/6502/dep/inc/mem/RAM.inc /home/nicky/Documents/cc65-master/6502/dep/inc/lib/DELAY_LIB.inc:
+

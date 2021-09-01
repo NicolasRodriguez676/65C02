@@ -1,0 +1,15 @@
+how should i use the lcd?
+
+write data
+    new
+    replace
+    targetted
+
+read data
+    cursor position (i.e lcd ram address)
+
+controls
+    cursor on/off/blink
+    display on/off
+    clear display
+    return home

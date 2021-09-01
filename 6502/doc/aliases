@@ -1,0 +1,7 @@
+Nicolas Rodriguez
+March 7, 2020
+
+Aliases to speedup compiling/assembling specific programs
+
+alias run-simple_bl="ca65 src/pgm/env/env0.s -I dep/inc -d -o bin/pgm/env/env0.bin"
+alias run-env0="ca65 src/pgm/env/env0.s -I dep/inc -d -o bin/pgm/env/env0.bin"

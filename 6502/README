@@ -1,0 +1,26 @@
+Author  - Nicolas Rodriugez
+Date    - March 8, 2021
+
+src
+
+    all .s files
+
+inc
+    
+    all include files
+
+bin
+
+    all binary files
+
+doc
+
+    documentation
+
+simple
+	a simple bootloader. quickly prototype programs
+
+complex
+	handles basic input device and an lcd display
+	organized program loading. more convenient to
+	prototype programs
